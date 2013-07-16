@@ -52,6 +52,18 @@ gem 'spree_static_content', :github => 'spree/spree_static_content'
 2. Run `bundle install`
 3. To copy and apply migrations run: `rails g spree_static_content:install`
 
+**For Spree 2.0.x**
+
+1. Add the following to your Gemfile
+
+```
+gem 'spree_static_content', :github => 'spree/spree_static_content', :branch => '2-0-stable'
+```
+
+2. Run `bundle install`
+3. To copy and apply migrations run: `rails g spree_static_content:install`
+
+
 **For Spree 1.3.x**
 
 1. Add the following to your Gemfile
